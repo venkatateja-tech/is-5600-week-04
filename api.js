@@ -51,4 +51,4 @@ async function listProducts(req, res) {
 
   try {
     const data = await fs.readFile(productsFile)
-    res.json(JSON.parse(data))}
+    res.json(JSON.parse(data))
